@@ -7,3 +7,37 @@ html,body{
     width: 100%;
     height: 100vh;
 }
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.some{
+    background-color: aqua;
+}
+#container{
+    padding: 40px;
+    border: 2px solid black;
+    min-height: 200px;
+    height: auto;
+    max-width: 600px;
+}
+#head{
+    font-family: sans-serif;
+    text-align: center;
+    margin: 10px;
+}
+#para{
+    margin: 10px;
+    font-family: sans-serif;
+}
+button{
+    background-color: #000;
+    border: none;
+    outline: none;
+    color: #fff;
+    padding: 10px 50px;
+    margin: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
